@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
 
         <ul class="nav nav-pills col-4 justify-content-begin">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link active" href="https://www.linkedin.com/in/francisco-javier-vannini-robelo-b294a182/">Francisco J Vannini R</a>
             </li>
         </ul>
 
@@ -34,6 +34,36 @@
 
     </div>
 
+    <div class="myContact fluid-container">
+        <form action="/action_page.php">
+
+            <div class="row">
+                <label class="col-2 offset-1 justify-content-end" for="fname">First Name</label>
+                <input class="col-4" type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="row">
+              <label class= "col-2 offset-1 justify-content-end" for="lname">Last Name</label>
+              <input class= "col-4" type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="row">
+              <label class= "col-2 offset-1 justify-content-end" for="country">Country</label>
+              <select class= "col-4" id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+            <div class="row">
+              <label class = "col-2 offset-1 justify-content-end" for="subject">Subject</label>
+              <textarea class = "col-4" id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            </div> 
+            <div class="row">
+              <input class="col-2 offset-5 justify-content-end" type="submit" value="Submit">
+            </div>          
+          
+        </form>
+
+    </div>
 </body>
 <!-- This is the footer.-->
 <footer>
